@@ -68,7 +68,7 @@ namespace LAB09
             }
             else
             {
-                Console.WriteLine($"Объект {s.Name} нельзя удалить: он не является опасным/срок его хранения не истек");
+                Console.WriteLine($"Объект {s.Name} нельзя удалить: он не является опасным или срок его хранения не истек");
             }
         }
         public override string ToString()
